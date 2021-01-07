@@ -1,0 +1,23 @@
+server:
+  port: 8787
+
+
+sms: #MeAdmin
+  accessId: ENC(/Qwe1EBzhlI31tW81PN6uEGzD+xRC/SxQnVdOIKIcZBd+On9dLjucQ==)
+  accessKey:  ENC(DWBYp+drromV2FXA+AXuIvwWtmwOX6sExuueO2eojMxBQWSpihHQEQ==)
+  signName: 兴盛源商城
+  templateCode: SMS_208875167
+  product: Dysmsapi
+  domain: dysmsapi.aliyuncs.com
+
+spring:
+  redis:
+    host: 39.106.182.149 # Redis服务器地址
+    database: 0 # Redis数据库索引（默认为0）
+    port: 6379 # Redis服务器连接端口
+    password:  # Redis服务器连接密码（默认为空）
+    timeout: 3000ms # 连接超时时间（毫秒）
+
+jasypt:
+  encryptor:
+    password: yaozuowei  #你的秘钥
